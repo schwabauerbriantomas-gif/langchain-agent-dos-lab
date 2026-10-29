@@ -1,0 +1,73 @@
+{
+  "sizes": [
+    1024,
+    2048,
+    4096,
+    8192,
+    16384,
+    32768
+  ],
+  "runs": [
+    {
+      "input_bytes": 1024,
+      "http_status": 200,
+      "output_len": 1215,
+      "finish_reason": "stop",
+      "output_tokens": 5014,
+      "reasoning_tokens": 4628,
+      "elapsed_s": 176.51,
+      "error": ""
+    },
+    {
+      "input_bytes": 2048,
+      "http_status": 200,
+      "output_len": 0,
+      "finish_reason": null,
+      "output_tokens": null,
+      "reasoning_tokens": null,
+      "elapsed_s": 190.19,
+      "error": "OpenAITimeoutError: Request timed out."
+    },
+    {
+      "input_bytes": 4096,
+      "http_status": 200,
+      "output_len": 0,
+      "finish_reason": null,
+      "output_tokens": null,
+      "reasoning_tokens": null,
+      "elapsed_s": 189.09,
+      "error": "OpenAITimeoutError: Request timed out."
+    },
+    {
+      "input_bytes": 8192,
+      "http_status": 200,
+      "output_len": 0,
+      "finish_reason": null,
+      "output_tokens": null,
+      "reasoning_tokens": null,
+      "elapsed_s": 190.68,
+      "error": "OpenAITimeoutError: Request timed out."
+    },
+    {
+      "input_bytes": 16384,
+      "http_status": 200,
+      "output_len": 0,
+      "finish_reason": null,
+      "output_tokens": null,
+      "reasoning_tokens": null,
+      "elapsed_s": 190.43,
+      "error": "OpenAITimeoutError: Request timed out."
+    },
+    {
+      "input_bytes": 32768,
+      "http_status": 200,
+      "output_len": 1149,
+      "finish_reason": "stop",
+      "output_tokens": 924,
+      "reasoning_tokens": 619,
+      "elapsed_s": 25.36,
+      "error": ""
+    }
+  ],
+  "empty_success_threshold_bytes": 2048
+}

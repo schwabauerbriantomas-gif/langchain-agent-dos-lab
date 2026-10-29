@@ -1,0 +1,378 @@
+{
+  "size_bytes": 614400,
+  "n_msgs": 10,
+  "session": "heap_victim",
+  "server_pid": 11167,
+  "rss_before_kb": {
+    "VmHWM": 189852,
+    "VmRSS": 175956
+  },
+  "rss_trace": [
+    {
+      "i": 0,
+      "db_bytes": 192363840,
+      "VmHWM": 189852,
+      "VmRSS": 175960
+    },
+    {
+      "i": 1,
+      "db_bytes": 196705600,
+      "VmHWM": 189852,
+      "VmRSS": 175972
+    },
+    {
+      "i": 2,
+      "db_bytes": 205393216,
+      "VmHWM": 189852,
+      "VmRSS": 176792
+    },
+    {
+      "i": 3,
+      "db_bytes": 210959680,
+      "VmHWM": 189852,
+      "VmRSS": 179664
+    },
+    {
+      "i": 4,
+      "db_bytes": 223341888,
+      "VmHWM": 189852,
+      "VmRSS": 181652
+    },
+    {
+      "i": 5,
+      "db_bytes": 235694832,
+      "VmHWM": 193776,
+      "VmRSS": 193776
+    },
+    {
+      "i": 6,
+      "db_bytes": 249301744,
+      "VmHWM": 198124,
+      "VmRSS": 185384
+    },
+    {
+      "i": 7,
+      "db_bytes": 259803888,
+      "VmHWM": 198124,
+      "VmRSS": 178124
+    },
+    {
+      "i": 8,
+      "db_bytes": 271543024,
+      "VmHWM": 219836,
+      "VmRSS": 219836
+    },
+    {
+      "i": 9,
+      "db_bytes": 284510960,
+      "VmHWM": 234768,
+      "VmRSS": 224680
+    }
+  ],
+  "total_sent_bytes": 6144000,
+  "rss_after_flood_kb": {
+    "VmHWM": 234768,
+    "VmRSS": 224680
+  },
+  "history_loads": [
+    {
+      "attempt": 0,
+      "target": "heap_victim",
+      "status": 200,
+      "body": {
+        "session_id": "heap_victim",
+        "messages": 17,
+        "chars": 6160741
+      },
+      "rss": {
+        "VmHWM": 234768,
+        "VmRSS": 224680
+      }
+    },
+    {
+      "attempt": 0,
+      "target": "flood_s1",
+      "status": 200,
+      "body": {
+        "session_id": "flood_s1",
+        "messages": 10,
+        "chars": 3085083
+      },
+      "rss": {
+        "VmHWM": 234768,
+        "VmRSS": 224680
+      }
+    },
+    {
+      "attempt": 0,
+      "target": "flood_s2",
+      "status": 200,
+      "body": {
+        "session_id": "flood_s2",
+        "messages": 10,
+        "chars": 3083782
+      },
+      "rss": {
+        "VmHWM": 234768,
+        "VmRSS": 224680
+      }
+    },
+    {
+      "attempt": 0,
+      "target": "flood_s3",
+      "status": 200,
+      "body": {
+        "session_id": "flood_s3",
+        "messages": 10,
+        "chars": 3079869
+      },
+      "rss": {
+        "VmHWM": 234768,
+        "VmRSS": 224680
+      }
+    },
+    {
+      "attempt": 0,
+      "target": "flood_s4",
+      "status": 200,
+      "body": {
+        "session_id": "flood_s4",
+        "messages": 10,
+        "chars": 3084684
+      },
+      "rss": {
+        "VmHWM": 234768,
+        "VmRSS": 224680
+      }
+    },
+    {
+      "attempt": 0,
+      "target": "flood_s5",
+      "status": 200,
+      "body": {
+        "session_id": "flood_s5",
+        "messages": 10,
+        "chars": 3081031
+      },
+      "rss": {
+        "VmHWM": 234768,
+        "VmRSS": 224680
+      }
+    },
+    {
+      "attempt": 0,
+      "target": "flood_s6",
+      "status": 200,
+      "body": {
+        "session_id": "flood_s6",
+        "messages": 10,
+        "chars": 3079736
+      },
+      "rss": {
+        "VmHWM": 234768,
+        "VmRSS": 224680
+      }
+    },
+    {
+      "attempt": 1,
+      "target": "heap_victim",
+      "status": 200,
+      "body": {
+        "session_id": "heap_victim",
+        "messages": 17,
+        "chars": 6160741
+      },
+      "rss": {
+        "VmHWM": 234768,
+        "VmRSS": 224680
+      }
+    },
+    {
+      "attempt": 1,
+      "target": "flood_s1",
+      "status": 200,
+      "body": {
+        "session_id": "flood_s1",
+        "messages": 10,
+        "chars": 3085083
+      },
+      "rss": {
+        "VmHWM": 234768,
+        "VmRSS": 224680
+      }
+    },
+    {
+      "attempt": 1,
+      "target": "flood_s2",
+      "status": 200,
+      "body": {
+        "session_id": "flood_s2",
+        "messages": 10,
+        "chars": 3083782
+      },
+      "rss": {
+        "VmHWM": 234768,
+        "VmRSS": 224680
+      }
+    },
+    {
+      "attempt": 1,
+      "target": "flood_s3",
+      "status": 200,
+      "body": {
+        "session_id": "flood_s3",
+        "messages": 10,
+        "chars": 3079869
+      },
+      "rss": {
+        "VmHWM": 234768,
+        "VmRSS": 224680
+      }
+    },
+    {
+      "attempt": 1,
+      "target": "flood_s4",
+      "status": 200,
+      "body": {
+        "session_id": "flood_s4",
+        "messages": 10,
+        "chars": 3084684
+      },
+      "rss": {
+        "VmHWM": 234768,
+        "VmRSS": 224680
+      }
+    },
+    {
+      "attempt": 1,
+      "target": "flood_s5",
+      "status": 200,
+      "body": {
+        "session_id": "flood_s5",
+        "messages": 10,
+        "chars": 3081031
+      },
+      "rss": {
+        "VmHWM": 234768,
+        "VmRSS": 224680
+      }
+    },
+    {
+      "attempt": 1,
+      "target": "flood_s6",
+      "status": 200,
+      "body": {
+        "session_id": "flood_s6",
+        "messages": 10,
+        "chars": 3079736
+      },
+      "rss": {
+        "VmHWM": 234768,
+        "VmRSS": 224680
+      }
+    },
+    {
+      "attempt": 2,
+      "target": "heap_victim",
+      "status": 200,
+      "body": {
+        "session_id": "heap_victim",
+        "messages": 17,
+        "chars": 6160741
+      },
+      "rss": {
+        "VmHWM": 234768,
+        "VmRSS": 224680
+      }
+    },
+    {
+      "attempt": 2,
+      "target": "flood_s1",
+      "status": 200,
+      "body": {
+        "session_id": "flood_s1",
+        "messages": 10,
+        "chars": 3085083
+      },
+      "rss": {
+        "VmHWM": 234768,
+        "VmRSS": 224680
+      }
+    },
+    {
+      "attempt": 2,
+      "target": "flood_s2",
+      "status": 200,
+      "body": {
+        "session_id": "flood_s2",
+        "messages": 10,
+        "chars": 3083782
+      },
+      "rss": {
+        "VmHWM": 234768,
+        "VmRSS": 224680
+      }
+    },
+    {
+      "attempt": 2,
+      "target": "flood_s3",
+      "status": 200,
+      "body": {
+        "session_id": "flood_s3",
+        "messages": 10,
+        "chars": 3079869
+      },
+      "rss": {
+        "VmHWM": 234768,
+        "VmRSS": 224680
+      }
+    },
+    {
+      "attempt": 2,
+      "target": "flood_s4",
+      "status": 200,
+      "body": {
+        "session_id": "flood_s4",
+        "messages": 10,
+        "chars": 3084684
+      },
+      "rss": {
+        "VmHWM": 234768,
+        "VmRSS": 224680
+      }
+    },
+    {
+      "attempt": 2,
+      "target": "flood_s5",
+      "status": 200,
+      "body": {
+        "session_id": "flood_s5",
+        "messages": 10,
+        "chars": 3081031
+      },
+      "rss": {
+        "VmHWM": 234768,
+        "VmRSS": 224680
+      }
+    },
+    {
+      "attempt": 2,
+      "target": "flood_s6",
+      "status": 200,
+      "body": {
+        "session_id": "flood_s6",
+        "messages": 10,
+        "chars": 3079736
+      },
+      "rss": {
+        "VmHWM": 234768,
+        "VmRSS": 224680
+      }
+    }
+  ],
+  "server_alive_after_loads": true,
+  "rss_final_kb": {
+    "VmHWM": 234768,
+    "VmRSS": 224680
+  }
+}

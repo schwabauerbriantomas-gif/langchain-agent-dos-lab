@@ -1,0 +1,35 @@
+server pid=11167 rss_before={'VmHWM': 189852, 'VmRSS': 175956}
+msg 1/10 http=200 db=192363840 VmRSS=175960kB VmHWM=189852kB
+msg 2/10 http=200 db=196705600 VmRSS=175972kB VmHWM=189852kB
+msg 3/10 http=200 db=205393216 VmRSS=176792kB VmHWM=189852kB
+msg 4/10 http=200 db=210959680 VmRSS=179664kB VmHWM=189852kB
+msg 5/10 http=200 db=223341888 VmRSS=181652kB VmHWM=189852kB
+msg 6/10 http=200 db=235694832 VmRSS=193776kB VmHWM=193776kB
+msg 7/10 http=200 db=249301744 VmRSS=185384kB VmHWM=198124kB
+msg 8/10 http=200 db=259803888 VmRSS=178124kB VmHWM=198124kB
+msg 9/10 http=200 db=271543024 VmRSS=219836kB VmHWM=219836kB
+msg 10/10 http=200 db=284510960 VmRSS=224680kB VmHWM=234768kB
+load r1 heap_victim: {'session_id': 'heap_victim', 'messages': 17, 'chars': 6160741} rss={'VmHWM': 234768, 'VmRSS': 224680}
+load r1 flood_s1: {'session_id': 'flood_s1', 'messages': 10, 'chars': 3085083} rss={'VmHWM': 234768, 'VmRSS': 224680}
+load r1 flood_s2: {'session_id': 'flood_s2', 'messages': 10, 'chars': 3083782} rss={'VmHWM': 234768, 'VmRSS': 224680}
+load r1 flood_s3: {'session_id': 'flood_s3', 'messages': 10, 'chars': 3079869} rss={'VmHWM': 234768, 'VmRSS': 224680}
+load r1 flood_s4: {'session_id': 'flood_s4', 'messages': 10, 'chars': 3084684} rss={'VmHWM': 234768, 'VmRSS': 224680}
+load r1 flood_s5: {'session_id': 'flood_s5', 'messages': 10, 'chars': 3081031} rss={'VmHWM': 234768, 'VmRSS': 224680}
+load r1 flood_s6: {'session_id': 'flood_s6', 'messages': 10, 'chars': 3079736} rss={'VmHWM': 234768, 'VmRSS': 224680}
+load r2 heap_victim: {'session_id': 'heap_victim', 'messages': 17, 'chars': 6160741} rss={'VmHWM': 234768, 'VmRSS': 224680}
+load r2 flood_s1: {'session_id': 'flood_s1', 'messages': 10, 'chars': 3085083} rss={'VmHWM': 234768, 'VmRSS': 224680}
+load r2 flood_s2: {'session_id': 'flood_s2', 'messages': 10, 'chars': 3083782} rss={'VmHWM': 234768, 'VmRSS': 224680}
+load r2 flood_s3: {'session_id': 'flood_s3', 'messages': 10, 'chars': 3079869} rss={'VmHWM': 234768, 'VmRSS': 224680}
+load r2 flood_s4: {'session_id': 'flood_s4', 'messages': 10, 'chars': 3084684} rss={'VmHWM': 234768, 'VmRSS': 224680}
+load r2 flood_s5: {'session_id': 'flood_s5', 'messages': 10, 'chars': 3081031} rss={'VmHWM': 234768, 'VmRSS': 224680}
+load r2 flood_s6: {'session_id': 'flood_s6', 'messages': 10, 'chars': 3079736} rss={'VmHWM': 234768, 'VmRSS': 224680}
+load r3 heap_victim: {'session_id': 'heap_victim', 'messages': 17, 'chars': 6160741} rss={'VmHWM': 234768, 'VmRSS': 224680}
+load r3 flood_s1: {'session_id': 'flood_s1', 'messages': 10, 'chars': 3085083} rss={'VmHWM': 234768, 'VmRSS': 224680}
+load r3 flood_s2: {'session_id': 'flood_s2', 'messages': 10, 'chars': 3083782} rss={'VmHWM': 234768, 'VmRSS': 224680}
+load r3 flood_s3: {'session_id': 'flood_s3', 'messages': 10, 'chars': 3079869} rss={'VmHWM': 234768, 'VmRSS': 224680}
+load r3 flood_s4: {'session_id': 'flood_s4', 'messages': 10, 'chars': 3084684} rss={'VmHWM': 234768, 'VmRSS': 224680}
+load r3 flood_s5: {'session_id': 'flood_s5', 'messages': 10, 'chars': 3081031} rss={'VmHWM': 234768, 'VmRSS': 224680}
+load r3 flood_s6: {'session_id': 'flood_s6', 'messages': 10, 'chars': 3079736} rss={'VmHWM': 234768, 'VmRSS': 224680}
+[saved] ~/labs/langchain-dos-20261029/evidence/battery2_heap.json
+
+VmHWM final: {'VmHWM': 234768, 'VmRSS': 224680}

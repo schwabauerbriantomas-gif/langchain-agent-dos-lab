@@ -1,0 +1,30 @@
+{
+  "db_before_delete": 284510960,
+  "pragmas_before": {
+    "freelist_pages": 0,
+    "page_count": 67620,
+    "page_size": 4096
+  },
+  "delete_response": {
+    "deleted": true,
+    "freelist_pages": 7544,
+    "page_count": 67620
+  },
+  "db_after_delete": 284510960,
+  "pragmas_after_delete": {
+    "freelist_pages": 7544,
+    "page_count": 67620,
+    "page_size": 4096
+  },
+  "reclaimed_by_delete_bytes": 0,
+  "db_after_vacuum": 494158368,
+  "pragmas_after_vacuum": {
+    "freelist_pages": 0,
+    "page_count": 60076,
+    "page_size": 4096
+  },
+  "reclaimed_by_vacuum_bytes": -209647408,
+  "db_after_wal_drain": 246562816,
+  "recovered_after_drain_bytes": 37948144,
+  "nota": "El VACUUM pasa por el WAL: la lectura inmediata post-VACUUM infla el total (WAL sin drenar). El valor real de recuperación requiere wal_checkpoint(TRUNCATE)."
+}

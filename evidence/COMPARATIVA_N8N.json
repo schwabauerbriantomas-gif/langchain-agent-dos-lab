@@ -1,0 +1,93 @@
+{
+  "meta": {
+    "langchain": "1.4.7",
+    "langchain-core": "1.7.1",
+    "langgraph": "1.2.18",
+    "langgraph-checkpoint-sqlite": "3.1.2",
+    "pydantic": "2.14.1",
+    "python": "3.14.7",
+    "modelo": "glm-5.3-flash (Z.AI coding endpoint)",
+    "victim": "create_agent + SqliteSaver (docs pattern), FastAPI :8124",
+    "envelope": "RLIMIT_AS 2.5GB (mismo heap que n8n en lab)"
+  },
+  "F014_storage_flood": {
+    "input_mb": 18.43,
+    "db_growth_mb": 192.36,
+    "amplification_n8n": 2.3,
+    "amplification_langchain": 10.436,
+    "persisted_despite_llm": {
+      "session_id": "flood_s1",
+      "messages": 10,
+      "chars": 3085083
+    },
+    "veredicto": "REPLICA con amplificacion 10.436x (n8n: 2.3x)"
+  },
+  "F013_heap": {
+    "server_alive_after_loads": true,
+    "VmHWM_peak_kb": 234768,
+    "VmHWM_peak_gb": 0.23,
+    "n8n_comparacion": "OOM fatal con heap 2.5GB y 2x600KB parseados",
+    "veredicto": "NO REPLICA: server sobrevivio a la carga de todo el historial"
+  },
+  "F014_delete_vacuum": {
+    "recovered_by_delete_bytes": 0,
+    "recovered_by_vacuum_bytes": 37948144,
+    "n8n_comparacion": "delete API: 0 bytes; solo VACUUM offline",
+    "veredicto": "REPLICA: delete por API recupera 0B (freelist); solo VACUUM+wals_checkpoint recupera 37948144B"
+  },
+  "F005_empty_outputs": {
+    "umbral_n8n": "~8KB (finish_reason=length, content='', success)",
+    "empty_success_true": [],
+    "llm_timeouts_2a190s": [
+      2048,
+      4096,
+      8192,
+      16384
+    ],
+    "runs": [
+      {
+        "input_bytes": 1024,
+        "output_len": 1215,
+        "finish_reason": "stop",
+        "reasoning_tokens": 4628,
+        "error": ""
+      },
+      {
+        "input_bytes": 2048,
+        "output_len": 0,
+        "finish_reason": null,
+        "reasoning_tokens": null,
+        "error": "OpenAITimeoutError: Request timed out."
+      },
+      {
+        "input_bytes": 4096,
+        "output_len": 0,
+        "finish_reason": null,
+        "reasoning_tokens": null,
+        "error": "OpenAITimeoutError: Request timed out."
+      },
+      {
+        "input_bytes": 8192,
+        "output_len": 0,
+        "finish_reason": null,
+        "reasoning_tokens": null,
+        "error": "OpenAITimeoutError: Request timed out."
+      },
+      {
+        "input_bytes": 16384,
+        "output_len": 0,
+        "finish_reason": null,
+        "reasoning_tokens": null,
+        "error": "OpenAITimeoutError: Request timed out."
+      },
+      {
+        "input_bytes": 32768,
+        "output_len": 1149,
+        "finish_reason": "stop",
+        "reasoning_tokens": 619,
+        "error": ""
+      }
+    ],
+    "veredicto": "NO REPLICA (F-005 puro): 0 empty-success. Hallazgo nuevo: timeouts LLM server-side en 2-16KB (~190s para fallar) devueltos como error limpio por langchain"
+  }
+}

@@ -1,0 +1,14 @@
+# Pinned to the exact versions of the 2026-10-29 lab run (Python 3.14.7).
+# Transitive pins below reflect the versions present in the lab venv.
+langchain==1.4.7
+langchain-core==1.7.1
+langchain-openai==1.7.3
+langgraph==1.2.18
+langgraph-checkpoint==4.3.1
+langgraph-checkpoint-sqlite==3.1.2
+fastapi==0.162.0
+uvicorn==0.54.0
+httpx==0.28.1
+
+# lab-observed transitive versions (reference; adjust if resolver conflicts)
+# openai==3.41.0  pydantic==2.14.1  starlette==1.10.0  ormsgpack==1.13.0

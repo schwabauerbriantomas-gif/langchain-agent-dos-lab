@@ -1,0 +1,35 @@
+baseline DB: 0 bytes
+flood_s1#0 sent=614400 http=200 err='' db=2607776
+flood_s1#1 sent=614400 http=200 err='' db=8852952
+flood_s1#2 sent=614400 http=200 err='' db=17503704
+flood_s1#3 sent=614400 http=200 err='' db=24219696
+flood_s1#4 sent=614400 http=200 err='' db=37858552
+flood_s2#0 sent=614400 http=200 err='' db=37858552
+flood_s2#1 sent=614400 http=200 err='' db=42175736
+flood_s2#2 sent=614400 http=200 err='' db=50830584
+flood_s2#3 sent=614400 http=200 err='' db=56384760
+flood_s2#4 sent=614400 http=200 err='' db=68758776
+flood_s3#0 sent=614400 http=200 err='' db=68758776
+flood_s3#1 sent=614400 http=200 err='' db=73084152
+flood_s3#2 sent=614400 http=200 err='' db=81726712
+flood_s3#3 sent=614400 http=200 err='' db=87280888
+flood_s3#4 sent=614400 http=200 err='' db=99650808
+flood_s4#0 sent=614400 http=200 err='' db=99650808
+flood_s4#1 sent=614400 http=200 err='' db=103972088
+flood_s4#2 sent=614400 http=200 err='' db=112631032
+flood_s4#3 sent=614400 http=200 err='' db=118189304
+flood_s4#4 sent=614400 http=200 err='' db=130571536
+flood_s5#0 sent=614400 http=200 err='' db=130571536
+flood_s5#1 sent=614400 http=200 err='' db=134892816
+flood_s5#2 sent=614400 http=200 err='' db=143543568
+flood_s5#3 sent=614400 http=200 err='' db=149105936
+flood_s5#4 sent=614400 http=200 err='' db=161463568
+flood_s6#0 sent=614400 http=200 err='' db=161463568
+flood_s6#1 sent=614400 http=200 err='' db=165784848
+flood_s6#2 sent=614400 http=200 err='' db=174435600
+flood_s6#3 sent=614400 http=200 err='' db=179993872
+flood_s6#4 sent=614400 http=200 err='' db=192363840
+[saved] ~/labs/langchain-dos-20261029/evidence/battery1_storage_flood.json
+
+growth=192363840 sent=18432000 amplification=10.436x
+history flood_s1: {'session_id': 'flood_s1', 'messages': 10, 'chars': 3085083}

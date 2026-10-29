@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+
+# lab state — never commit the victim DB or probe artifacts
+victim_chat.sqlite
+victim_chat.sqlite-*
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+
+.env

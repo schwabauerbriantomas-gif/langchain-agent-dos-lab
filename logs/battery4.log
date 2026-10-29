@@ -1,0 +1,9 @@
+1024B -> out_len=1215 finish=stop tok=5014 (reasoning 4628) 176.51s err=''
+2048B -> out_len=0 finish=None tok=None (reasoning None) 190.19s err='OpenAITimeoutError: Request timed out.'
+4096B -> out_len=0 finish=None tok=None (reasoning None) 189.09s err='OpenAITimeoutError: Request timed out.'
+8192B -> out_len=0 finish=None tok=None (reasoning None) 190.68s err='OpenAITimeoutError: Request timed out.'
+16384B -> out_len=0 finish=None tok=None (reasoning None) 190.43s err='OpenAITimeoutError: Request timed out.'
+32768B -> out_len=1149 finish=stop tok=924 (reasoning 619) 25.36s err=''
+[saved] ~/labs/langchain-dos-20261029/evidence/battery4_f005.json
+
+umbral de success-vacío: 2048

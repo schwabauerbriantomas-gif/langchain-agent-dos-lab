@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="400" viewBox="0 0 920 400" font-family="ui-sans-serif,system-ui,Segoe UI,Helvetica,Arial,sans-serif">
+<rect width="920" height="400" fill="#0d1117"/>
+<line x1="60" y1="40.0" x2="455" y2="40.0" stroke="#21262d" stroke-width="1"/>
+<line x1="60" y1="115.0" x2="455" y2="115.0" stroke="#21262d" stroke-width="1"/>
+<line x1="60" y1="190.0" x2="455" y2="190.0" stroke="#21262d" stroke-width="1"/>
+<line x1="60" y1="265.0" x2="455" y2="265.0" stroke="#21262d" stroke-width="1"/>
+<line x1="60" y1="340.0" x2="455" y2="340.0" stroke="#21262d" stroke-width="1"/>
+<line x1="60" y1="340" x2="455" y2="340" stroke="#30363d" stroke-width="1.5"/>
+<line x1="60" y1="40" x2="60" y2="340" stroke="#30363d" stroke-width="1.5"/>
+<line x1="495" y1="40.0" x2="890" y2="40.0" stroke="#21262d" stroke-width="1"/>
+<line x1="495" y1="115.0" x2="890" y2="115.0" stroke="#21262d" stroke-width="1"/>
+<line x1="495" y1="190.0" x2="890" y2="190.0" stroke="#21262d" stroke-width="1"/>
+<line x1="495" y1="265.0" x2="890" y2="265.0" stroke="#21262d" stroke-width="1"/>
+<line x1="495" y1="340.0" x2="890" y2="340.0" stroke="#21262d" stroke-width="1"/>
+<line x1="495" y1="340" x2="890" y2="340" stroke="#30363d" stroke-width="1.5"/>
+<line x1="495" y1="40" x2="495" y2="340" stroke="#30363d" stroke-width="1.5"/>
+<polygon points="60,340 60.0,336.0 73.6,326.5 87.2,313.2 100.9,303.0 114.5,282.1 128.1,282.1 141.7,275.5 155.3,262.3 169.0,253.8 182.6,234.9 196.2,234.9 209.8,228.3 223.4,215.0 237.1,206.6 250.7,187.6 264.3,187.6 277.9,181.0 291.6,167.8 305.2,159.3 318.8,140.4 332.4,140.4 346.0,133.8 359.7,120.5 373.3,112.0 386.9,93.1 400.5,93.1 414.1,86.5 427.8,73.3 441.4,64.8 455.0,45.9 455,340" fill="#1f6feb33"/>
+<polyline points="60.0,336.0 73.6,326.5 87.2,313.2 100.9,303.0 114.5,282.1 128.1,282.1 141.7,275.5 155.3,262.3 169.0,253.8 182.6,234.9 196.2,234.9 209.8,228.3 223.4,215.0 237.1,206.6 250.7,187.6 264.3,187.6 277.9,181.0 291.6,167.8 305.2,159.3 318.8,140.4 332.4,140.4 346.0,133.8 359.7,120.5 373.3,112.0 386.9,93.1 400.5,93.1 414.1,86.5 427.8,73.3 441.4,64.8 455.0,45.9" fill="none" stroke="#58a6ff" stroke-width="2.5"/>
+<circle cx="60.0" cy="336.0" r="3.5" fill="#58a6ff"/>
+<text x="60.0" y="326.0" fill="#58a6ff" font-size="11" text-anchor="middle">3MB</text>
+<circle cx="182.6" cy="234.9" r="3.5" fill="#58a6ff"/>
+<text x="182.6" y="224.9" fill="#58a6ff" font-size="11" text-anchor="middle">69MB</text>
+<circle cx="318.8" cy="140.4" r="3.5" fill="#58a6ff"/>
+<text x="318.8" y="130.4" fill="#58a6ff" font-size="11" text-anchor="middle">131MB</text>
+<circle cx="455.0" cy="45.9" r="3.5" fill="#58a6ff"/>
+<text x="455.0" y="35.9" fill="#58a6ff" font-size="11" text-anchor="middle">192MB</text>
+<text x="257.5" y="28" fill="#e6edf3" font-size="14" font-weight="600" text-anchor="middle">Cumulative DB growth — 30 requests, 18.4MB input &#8594; 192.4MB stored (10.4&#215;)</text>
+<text x="52" y="344.0" fill="#8b949e" font-size="11" text-anchor="end">0</text>
+<text x="52" y="344.0" fill="#8b949e" font-size="11" text-anchor="end">96</text>
+<text x="52" y="344.0" fill="#8b949e" font-size="11" text-anchor="end">192</text>
+<text x="257.5" y="380" fill="#8b949e" font-size="11" text-anchor="middle">attacker request # (6 sessions &#215; 5 msgs &#215; 600KB each — battery 1)</text>
+<text x="18" y="190.0" fill="#8b949e" font-size="11" text-anchor="middle" transform="rotate(-90 18 190.0)">SQLite size (MB)</text>
+<rect x="500.9" y="340.0" width="27.6" height="0.0" fill="#e3b341" rx="2"/>
+<text x="514.8" y="334.0" fill="#8b949e" font-size="9.5" text-anchor="middle">0</text>
+<rect x="540.4" y="246.2" width="27.6" height="93.8" fill="#e3b341" rx="2"/>
+<text x="554.2" y="240.2" fill="#8b949e" font-size="9.5" text-anchor="middle">4</text>
+<rect x="579.9" y="152.2" width="27.6" height="187.8" fill="#e3b341" rx="2"/>
+<text x="593.8" y="146.2" fill="#8b949e" font-size="9.5" text-anchor="middle">9</text>
+<rect x="619.4" y="219.7" width="27.6" height="120.3" fill="#e3b341" rx="2"/>
+<text x="633.2" y="213.7" fill="#8b949e" font-size="9.5" text-anchor="middle">6</text>
+<rect x="658.9" y="72.4" width="27.6" height="267.6" fill="#e3b341" rx="2"/>
+<text x="672.8" y="66.4" fill="#8b949e" font-size="9.5" text-anchor="middle">12</text>
+<rect x="698.4" y="73.0" width="27.6" height="267.0" fill="#e3b341" rx="2"/>
+<text x="712.2" y="67.0" fill="#8b949e" font-size="9.5" text-anchor="middle">12</text>
+<rect x="737.9" y="45.9" width="27.6" height="294.1" fill="#f0883e" rx="2"/>
+<text x="751.8" y="39.9" fill="#8b949e" font-size="9.5" text-anchor="middle">14</text>
+<rect x="777.4" y="113.0" width="27.6" height="227.0" fill="#e3b341" rx="2"/>
+<text x="791.2" y="107.0" fill="#8b949e" font-size="9.5" text-anchor="middle">11</text>
+<rect x="816.9" y="86.3" width="27.6" height="253.7" fill="#e3b341" rx="2"/>
+<text x="830.8" y="80.3" fill="#8b949e" font-size="9.5" text-anchor="middle">12</text>
+<rect x="856.4" y="59.7" width="27.6" height="280.3" fill="#e3b341" rx="2"/>
+<text x="870.2" y="53.7" fill="#8b949e" font-size="9.5" text-anchor="middle">13</text>
+<text x="692.5" y="28" fill="#e6edf3" font-size="14" font-weight="600" text-anchor="middle">DB growth caused by each message in ONE session (k-th message re-persists all k messages)</text>
+<text x="487" y="344.0" fill="#8b949e" font-size="11" text-anchor="end">0</text>
+<text x="487" y="192.7" fill="#8b949e" font-size="11" text-anchor="end">7</text>
+<text x="487" y="41.4" fill="#8b949e" font-size="11" text-anchor="end">14</text>
+<text x="692.5" y="380" fill="#8b949e" font-size="11" text-anchor="middle">message k in a single session (10 &#215; 600KB — battery 2): MB added by checkpoint of message k</text>
+<text x="453" y="190.0" fill="#8b949e" font-size="11" text-anchor="middle" transform="rotate(-90 453 190.0)">MB added</text>
+</svg>
