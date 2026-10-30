@@ -69,13 +69,14 @@ export VICTIM_MODEL=gpt-4o-mini      # default: glm-5.3-flash
 # terminal 1 — victim on 127.0.0.1:8124 with a 2.5GB address-space cap
 python victim/server_wrapper.py
 
-# terminal 2 — batteries (each writes evidence/<name>.json)
+# terminal 2 — batteries; fresh results land in attacks/evidence/ (gitignored),
+# so a re-run never overwrites the committed evidence/ record from 2026-10-29
 cd attacks
 python -u battery1_storage_flood.py   # storage flood: 6 sess × 5 × 600KB → amplification
 python -u battery2_heap.py            # heap: flood 1 session, then load ALL sessions ×3
 python -u battery3_delete_vacuum.py   # delete vs VACUUM (run after 1)
 python -u battery4_f005.py            # empty-success / LLM timeout thresholds
-python consolidate.py                 # regenerates evidence/COMPARATIVA_N8N.json
+python consolidate.py                 # regenerates evidence/COMPARATIVA_N8N.json from the committed record
 ```
 
 `attacks/probe_api.py` and `attacks/probe_thinking.py` are optional direct-to-provider probes (payload acceptance, thinking on/off timing).
