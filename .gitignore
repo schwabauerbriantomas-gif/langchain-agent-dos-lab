@@ -10,3 +10,6 @@ victim_chat.sqlite-*
 *.sqlite-shm
 
 .env
+
+# fresh runs write here; evidence/ at repo root is the committed 2026-10-29 record
+attacks/evidence/

@@ -7,7 +7,12 @@ import sqlite3
 BASE = "http://127.0.0.1:8124"
 LAB = os.path.dirname(os.path.abspath(__file__))
 EVIDENCE = os.path.join(LAB, "evidence")
-DB = os.path.join(LAB, "victim_chat.sqlite")
+REPO_ROOT = os.path.dirname(LAB)
+DATA_DIR = os.path.join(REPO_ROOT, "data")
+os.makedirs(DATA_DIR, exist_ok=True)
+# Same default DB file the victim writes to (victim/victim_app.py), so db_bytes()
+# measures the live database regardless of the cwd each component was started from.
+DB = os.environ.get("VICTIM_DB", os.path.join(DATA_DIR, "victim_chat.sqlite"))
 os.makedirs(EVIDENCE, exist_ok=True)
 
 

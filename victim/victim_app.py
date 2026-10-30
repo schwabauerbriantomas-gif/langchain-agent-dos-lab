@@ -15,7 +15,10 @@ from pydantic import BaseModel
 from langchain_openai import ChatOpenAI
 from langgraph.checkpoint.sqlite import SqliteSaver
 
-DB_PATH = os.environ.get("VICTIM_DB", "victim_chat.sqlite")
+REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+DATA_DIR = os.path.join(REPO_ROOT, "data")
+os.makedirs(DATA_DIR, exist_ok=True)
+DB_PATH = os.environ.get("VICTIM_DB", os.path.join(DATA_DIR, "victim_chat.sqlite"))
 API_KEY = os.environ.get("LLM_API_KEY") or open(
     os.environ["LLM_API_KEY_FILE"]).read().strip()
 BASE_URL = os.environ.get("LLM_BASE_URL", "https://api.z.ai/api/coding/paas/v4")
