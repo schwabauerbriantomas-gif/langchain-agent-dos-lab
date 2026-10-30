@@ -26,16 +26,25 @@ def db_bytes():
 
 
 def server_pid():
+    """PID of the victim *python* process.
+
+    Matches only argv whose executable is a python interpreter — a parent
+    `bash -c "... server_wrapper.py ..."` wrapper carries the script name in
+    its own cmdline and would be picked first (it was: measured a 5MB shell
+    instead of the ~200MB server).
+    """
     for pid in os.listdir("/proc"):
         if not pid.isdigit():
             continue
         try:
             with open(f"/proc/{pid}/cmdline", "rb") as f:
-                cmd = f.read().decode(errors="replace")
-            if "server_wrapper.py" in cmd:
-                return int(pid)
+                argv = [a for a in f.read().decode(errors="replace").split("\0") if a]
         except OSError:
             continue
+        if not argv or not os.path.basename(argv[0]).startswith("python"):
+            continue
+        if any("server_wrapper.py" in a for a in argv[1:]):
+            return int(pid)
     return None
 
 
